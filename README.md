@@ -46,4 +46,5 @@ Alphabet Soup's business team is looking to predict where to make investments. W
 
 ### Summary
 Overall, I was unable to reach the desired performance of 75%, even when attempting several optimization techniques. In summary, I do not think this model can reach higher than 72%-73%. It seems as though the model is actually very overfitted. Perhaps a suggestion would be to use a Supervised machine learning technique instead. We have compared Random Forest technique to Deep Learning with favorable results leaning towards Random Forest, especially due to its speed. My suggestion would be to try a Random Forest model. 
+![DELETE COLUMNS ACCURACY](https://user-images.githubusercontent.com/98500639/178120627-440c600c-9fbf-4271-a899-fd88394e2b8f.png)
 
