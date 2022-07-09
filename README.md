@@ -9,12 +9,15 @@ Alphabet Soup's business team is looking to predict where to make investments. W
 #### Data Processing
 
 1) What variables are considered the target(s) for your model?
+
 The variable that was used as the target was IS_SUCCESSFUL. We ultimately want to determine the model's accuracy of predicting successful applicants funded by Alphabet Soup.
 
 2) What variables are considered to be the features of your model?
+
 The variables that were considered to be the features of our model were: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, SPECIAL_CONSIDERATIONS.
 
 3) What variables are neither the targets nor features, and should be removed from the input data?
+
 Initially, EIN and NAME were removed from the input data as variables that would neither be considered targets nor features.
 		
 #### Compiling, Training, and Evaluating the Model
