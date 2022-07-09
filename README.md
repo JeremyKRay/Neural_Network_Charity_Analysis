@@ -19,22 +19,22 @@ Alphabet Soup's business team is looking to predict where to make investments. W
 		6) What steps did you take to try and increase the model performance?
 		I took several steps to try and increase the model performance. These included: 
 		
-		I) Adjusting the input data to remove additional unnecessary variables.
+		1) Adjusting the input data to remove additional unnecessary variables.
 		
 		![Delete Columns](https://user-images.githubusercontent.com/98500639/178120467-ff10bcc8-abb2-4f5e-955e-07fae5f36b7f.png)
 		![DELETE COLUMNS ACCURACY](https://user-images.githubusercontent.com/98500639/178120471-f31fe1a8-7d4c-4254-9630-f6c14600abd8.png)
 
-		II) Adding more neurons
+		2) Adding more neurons
 		
 		![Increased nodes](https://user-images.githubusercontent.com/98500639/178120456-c9b4cbc3-8b72-4509-9c90-d65dffdde329.png)
 		![increased nodes accuracy](https://user-images.githubusercontent.com/98500639/178120458-b4c864dd-03b4-497b-a7e6-dc9737bdf9fb.png)
 
-		III) Adding more layers. 
+		3) Adding more layers. 
 		
 		![Increased hidden layers](https://user-images.githubusercontent.com/98500639/178120443-3f8d3898-efac-4f60-91a4-11233a5b76cf.png)
 		![Increased Hidden Layers to 4](https://user-images.githubusercontent.com/98500639/178120437-9d8501af-9cf8-4f73-90ba-b243faf2a777.png)
 		
-		IV) Changing the activation function.
+		4) Changing the activation function.
 		
 		![Increased nodes and tanh activation](https://user-images.githubusercontent.com/98500639/178120482-54f78ed9-45d4-4503-9bfb-9009df52c878.png)
 		![increased nodes and tanh activation accuracy](https://user-images.githubusercontent.com/98500639/178120490-3bb3c9ec-9cdc-4093-a811-0b5f8a54bf0f.png)
