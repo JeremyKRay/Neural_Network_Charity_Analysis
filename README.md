@@ -1,5 +1,5 @@
 # Neural_Network_Charity_Analysis
-
+Alphabet Soup's business team is looking to predict where to make investments. 
 ## Overview of the Analysis
 ### Purpose
 The purpose of this analysis
