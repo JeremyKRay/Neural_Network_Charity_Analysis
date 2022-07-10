@@ -28,7 +28,7 @@ Initially, I included 2 input layers with 10 neurons for the first layer and 5 n
 
 5) Were you able to achieve the target model performance?
 
-The accuracy was around 72% - 73% which is below the target model performance of 75 %.
+No. The accuracy was around 72% - 73% which is below the target model performance of 75 %.
 
 6) What steps did you take to try and increase the model performance?
 
@@ -54,7 +54,7 @@ I took several steps to try and increase the model performance. These included:
 ![Increased nodes and tanh activation](https://user-images.githubusercontent.com/98500639/178120482-54f78ed9-45d4-4503-9bfb-9009df52c878.png)
 ![increased nodes and tanh activation accuracy](https://user-images.githubusercontent.com/98500639/178120490-3bb3c9ec-9cdc-4093-a811-0b5f8a54bf0f.png)
 
-I actually tried many combinations of each of these, as well as those perhaps not listed. I have included an example of a final code in this repository that includes at least 3 attempted techniques at optimization. The file is called AlphabetSoupCharity_Optimization.ipynb and you can see the code here. [AlphabetSoupCharity_Optimiztion](https://github.com/JeremyKRay/Neural_Network_Charity_Analysis/blob/9a9e8834434bbac81d15afa8a0d2004491c7bf0a/AlphabetSoupCharity_Optimization.ipynb). The evaluation results were similar to all attempts.
+I actually tried many combinations of each of these, as well as some not listed, including adjusting the numbers and sizes of some of the bins. I have included an example of a final code in this repository that includes at least 3 attempted techniques at optimization. The file is called AlphabetSoupCharity_Optimization.ipynb and you can see the code here. [AlphabetSoupCharity_Optimiztion](https://github.com/JeremyKRay/Neural_Network_Charity_Analysis/blob/9a9e8834434bbac81d15afa8a0d2004491c7bf0a/AlphabetSoupCharity_Optimization.ipynb). The evaluation results were similar to all other attempts.
 
 ### Summary
-Overall, I was unable to reach the desired performance of 75%, even when attempting several optimization techniques. In summary, I do not think this model can reach higher than 72%-73%. It seems as though the model is actually very overfitted. Perhaps a suggestion would be to use a Supervised machine learning technique instead. We have compared Random Forest technique to Deep Learning with favorable results leaning towards Random Forest, especially due to its speed. My suggestion would be to try a Random Forest model. 
+Overall, I was unable to reach the desired performance of 75%, even when attempting several optimization techniques. In summary, I do not think this model can reach higher than 72%-73%. It seems as though the model is actually very overfitted. Perhaps a Supervised machine learning technique could provide better performance. We have compared Random Forest technique to Deep Learning with favorable results leaning towards Random Forest, especially due to its speed. My suggestion would be to try a Random Forest model. Additionally, I have tried exploring skilearn's make_moons module and kerastuner to find optimal parameters using dummy data but have not been able to produce increased performance results. I do not believe I am applying it correctly. This may be worth looking into further.
