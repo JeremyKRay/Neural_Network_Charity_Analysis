@@ -4,6 +4,11 @@
 
 Alphabet Soup's business team is looking to predict where to make investments. With our knowledge of machine learning and neural networks, the purpose of this project is to use the provided dataset and help create a binary classifier capable of predicting whether applicants will be successful if funded by Alphabet Soup. The dataset contains 34,000 organizations that have received Alphabet Soup funding. First, for Deliverable 1, a dataframe was created and variables were considered for the target(s) of the model and variables were considered for the feature(s). Then, the data was preprocessed to remove unnecessary columns and determine which columns could benefit from "binning" by analyzing the unique values of the columns. Once the categorical variables were determined, they were encoded using one-hot encoding and placed in a new dataframe, which was then merged with the original dataframe. For Deliverable 2, the new dataframe was compiled, trained, and evaluated using machine learning and deep learning neural networks. Lastly, for Deliverable 3, the model was put through several optimization techniques to try and reach a higher level of accuracy. The results of the various techniques are discussed below. 
 
+### Technology Used
+
+![download](https://user-images.githubusercontent.com/98500639/185664190-44294153-3966-4fdc-b5b4-c52d238b2225.jpg)
+![download](https://user-images.githubusercontent.com/98500639/185664253-84d82ac0-fe13-4948-87d0-c767ba627bac.png)
+
 ### Results
 
 #### Data Processing
